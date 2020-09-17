@@ -2,6 +2,7 @@
     flex: 0.65;
     display: flex;
     flex-direction: column;
+    max-width: 65%;
 }
 
 .chat__header {
@@ -20,6 +21,9 @@
 .chat__header-info h3 {
     margin-bottom: 3px;
     font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 315px;
 }
 
 .chat__header-info p {
@@ -66,6 +70,7 @@
     font-size: x-small;
     font-weight: 700;
     white-space: nowrap;
+    user-select: none;
 }
 
 .chat__timestamp {
@@ -74,6 +79,9 @@
     font-size: xx-small;
     bottom: -13px;
     right: 3px;
+    user-select: none;
+    color: gray;
+    white-space: nowrap;
 }
 
 .chat__receiver {

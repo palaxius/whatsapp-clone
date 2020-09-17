@@ -3,6 +3,7 @@
     flex-direction: column;
     border-right: 1px solid lightgray;
     flex: 0.35;
+    max-width: 35%
 }
 
 .sidebar__header {

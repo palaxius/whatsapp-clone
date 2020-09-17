@@ -1,3 +1,8 @@
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
 .sidebar__chat {
     display: flex;
     align-items: center;
@@ -13,6 +18,7 @@
 
 .sidebar__chat-info {
     margin-left: 15px;
+    overflow: hidden;
 }
 
 .sidebar__chat-info h2 {
